@@ -1,5 +1,3 @@
-package com.lsa.akosha.test;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -456,7 +454,7 @@ public class SymSpell
         //If you use mixed vocabulary use the language parameter in Correct() and CreateDictionary() accordingly.
         //You may use CreateDictionaryEntry() to update a (self learning) dictionary incrementally
         //To extend spelling correction beyond single words to phrases (e.g. correcting "unitedkingom" to "united kingdom") simply add those phrases with CreateDictionaryEntry().
-        CreateDictionary("/Users/pranavgupta/Desktop/bot/cities.txt","");
+        CreateDictionary("input/big.txt","");
         ReadFromStdIn();
     }
 
